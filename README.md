@@ -9,17 +9,17 @@
 ```sql
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY "password";
 ```
-![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/e27eb60b-1af1-4fc5-b59a-5e0a18e8cc61)
+![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/e27eb60b-1af1-4fc5-b59a-5e0a18e8cc61)  
 4. Просмотр всех пользователей
 ```sql
 SELECT user FROM mysql.user
 ```
-![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/41879eed-996f-4004-8508-8efebdcd95e2)
+![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/41879eed-996f-4004-8508-8efebdcd95e2)  
 5.Предоставление всех прав пользователю sys_temp
 ```sql
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
 ```
-![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/b088a47a-8a60-4e66-b2f5-976426af6e42)
+![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/b088a47a-8a60-4e66-b2f5-976426af6e42)  
 6. Запрос на получение списка прав для пользователя  
 ```sql
 SHOW GRANTS FOR 'sys_temp'@'localhost';
