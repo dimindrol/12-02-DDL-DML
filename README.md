@@ -30,9 +30,9 @@ SHOW GRANTS FOR 'sys_temp'@'localhost';
 8.Восстановили дамп в базу данных, сформировали ER-диаграмму
 ![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/1be8a43e-dc51-40db-a91a-85cbcc8ff9c1)
 
-### Задание 2
-Сопоставление таблицы и первичного ключа
-![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/e5bc5d5a-a4c6-417b-8c9f-6a07b79db5da)
+### Задание 2  
+Сопоставление таблицы и первичного ключа  
+![image](https://github.com/dimindrol/12-02-DDL-DML/assets/103885836/e5bc5d5a-a4c6-417b-8c9f-6a07b79db5da)  
 
 
 
